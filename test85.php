@@ -10,6 +10,7 @@ Bitrix\Main\Loader::includeModule('iblock');
 
 echo Bitrix\Iblock\IblockTable::getTableName();
 echo '<pre>'; print_r($arResult); echo '</pre>';
+echo '<pre>'; print_r($arResult); echo '</pre>';
 
 
 ?>
