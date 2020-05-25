@@ -1,6 +1,4 @@
 <?
-
-
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("тест85");
 ?>Text here....
@@ -11,6 +9,7 @@ echo '</pre>';
 Bitrix\Main\Loader::includeModule('iblock');
 
 echo Bitrix\Iblock\IblockTable::getTableName();
+echo '<pre>'; print_r($arResult); echo '</pre>';
 
 
 ?>
